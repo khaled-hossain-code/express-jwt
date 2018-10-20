@@ -15,10 +15,13 @@ async function signUp(req, res, next) {
   } catch(error) {
     return res.send(error);
   }
+}
 
-  // create a users and create a token and reply with and token
+function signIn(req, res, next) {
+
 }
 
 module.exports = {
-  signUp
+  signUp,
+  signIn
 }
